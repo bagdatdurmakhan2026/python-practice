@@ -1,11 +1,9 @@
-# 💻 Algorithms & Data Structures Roadmap
+💻 Algorithms & Data Structures Roadmap
+A repository for storing practical problems, algorithms, data structures, and daily practice (LeetCode / Codeforces).
 
-Репозиторий для хранения практических задач, алгоритмов, структур данных и daily-практики (LeetCode / Codeforces).
+🛠 Tech Stack & Languages
+Programming Language: Python 3.x
 
----
+Tools: VS Code, Git
 
-## 🛠 Стек и языки
-
-* **Язык программирования:** Python 3.x
-* **Инструменты:** VS Code, Git
-* **Темы:** Алгоритмы, структуры данных, массивы, два указателя, рекурсия, сортировки
+Topics: Algorithms, data structures, arrays, two pointers, recursion, sorting
