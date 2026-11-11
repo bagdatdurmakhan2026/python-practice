@@ -26,3 +26,15 @@ python 05_deployment\config_example.py
 ```
 
 For the deployment lifecycle and process exercises, see [`01_deployment_fundamentals`](01_deployment_fundamentals/README.MD).
+
+## Intermediate example: validated configuration
+
+[`validated_config_example.py`](validated_config_example.py) parses environment values into an immutable configuration object, validates the environment, port, and boolean settings, and hides the API token from its representation.
+
+```powershell
+$env:APP_ENV = "staging"
+$env:APP_PORT = "8080"
+python 05_deployment\validated_config_example.py
+```
+
+Invalid values fail with a clear error instead of being silently accepted.

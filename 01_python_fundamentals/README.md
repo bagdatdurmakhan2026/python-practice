@@ -19,3 +19,13 @@ python 01_python_fundamentals\average_example.py
 ```
 
 Expected output: `6.0`.
+
+## Intermediate example: LRU cache
+
+[`lru_cache_example.py`](lru_cache_example.py) implements a generic least-recently-used cache with a fixed capacity. Accessing an item makes it recent; inserting beyond capacity evicts the least recently used item.
+
+```powershell
+python 01_python_fundamentals\lru_cache_example.py
+```
+
+The output shows the evicted key returning `None`, followed by the cached value `3`.

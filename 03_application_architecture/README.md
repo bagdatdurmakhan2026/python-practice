@@ -19,3 +19,13 @@ python 03_application_architecture\orders_example.py
 ```
 
 Expected output: `30.0` for an order with three items priced at `10.0` each.
+
+## Intermediate example: order service
+
+[`order_service_example.py`](order_service_example.py) separates an application service from a repository interface, validates inventory and quantity, and persists through an in-memory adapter.
+
+```powershell
+python 03_application_architecture\order_service_example.py
+```
+
+The `OrderRepository` protocol makes it possible to replace the in-memory adapter with a database implementation without changing the order workflow.

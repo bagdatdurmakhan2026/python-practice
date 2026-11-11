@@ -1,0 +1,30 @@
+name: Python CI example
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Check Python syntax
+        run: >-
+          python -m py_compile
+          01_python_fundamentals/lru_cache_example.py
+          02_software_engineering/retry_policy_example.py
+          03_application_architecture/order_service_example.py
+          04_backend_architecture/notes_api_intermediate_example.py
+          05_deployment/validated_config_example.py
+          07_databases/sqlite_repository_example.py
+          08_data_engineering/transaction_report_example.py
+          11_monitoring/request_observability_example.py

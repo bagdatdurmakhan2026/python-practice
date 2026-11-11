@@ -6,18 +6,18 @@ A hands-on learning repository for Python, algorithms, software engineering, and
 
 | Section | What you'll find |
 | --- | --- |
-| [`01_python_fundamentals/`](01_python_fundamentals/README.md) | Python practice, algorithms, data structures, and fundamentals. Start with [the average example](01_python_fundamentals/average_example.py). |
-| [`02_software_engineering/`](02_software_engineering/README.md) | Input validation and maintainable coding practices. See [username validation](02_software_engineering/username_example.py). |
-| [`03_application_architecture/`](03_application_architecture/README.md) | Application models and separation of business logic. See [the order example](03_application_architecture/orders_example.py). |
-| [`04_backend_architecture/`](04_backend_architecture/README.md) | HTTP APIs and service health checks. See [the FastAPI example](04_backend_architecture/api_example.py). |
-| [`05_deployment/`](05_deployment/README.md) | Environments, configuration, and deployment fundamentals. See [the environment configuration example](05_deployment/config_example.py). |
-| [`06_docker/`](06_docker/README.md) | Container images and application packaging. See [the Dockerfile example](06_docker/Dockerfile.example). |
-| [`07_databases/`](07_databases/README.md) | Relational databases and SQLite. See [the SQLite example](07_databases/sqlite_example.py). |
-| [`08_data_engineering/`](08_data_engineering/README.md) | Loading, transforming, and aggregating data. See [the CSV pipeline example](08_data_engineering/csv_pipeline_example.py). |
-| [`09_ci_cd/`](09_ci_cd/README.md) | Automated checks and continuous integration. See the [GitHub Actions workflow example](09_ci_cd/tests.example.yml). |
-| [`10_infrastructure/`](10_infrastructure/README.md) | Infrastructure as Code concepts. See [the Terraform example](10_infrastructure/main.example.tf). |
-| [`11_monitoring/`](11_monitoring/README.md) | Application logging and observability basics. See [the logging example](11_monitoring/logging_example.py). |
-| [`12_system_design/`](12_system_design/README.md) | Components, responsibilities, and system request flows. See [the notes service design](12_system_design/notes_service_example.md). |
+| [`01_python_fundamentals/`](01_python_fundamentals/README.md) | Python practice, algorithms, data structures, and fundamentals. Try the [LRU cache](01_python_fundamentals/lru_cache_example.py). |
+| [`02_software_engineering/`](02_software_engineering/README.md) | Input validation and maintainable coding practices. Try the [retry policy](02_software_engineering/retry_policy_example.py). |
+| [`03_application_architecture/`](03_application_architecture/README.md) | Application models and separation of business logic. Try the [order service](03_application_architecture/order_service_example.py). |
+| [`04_backend_architecture/`](04_backend_architecture/README.md) | HTTP APIs and service health checks. Try the [validated notes API](04_backend_architecture/notes_api_intermediate_example.py). |
+| [`05_deployment/`](05_deployment/README.md) | Environments, configuration, and deployment fundamentals. Try the [validated configuration](05_deployment/validated_config_example.py). |
+| [`06_docker/`](06_docker/README.md) | Container images and application packaging. See the [multi-stage API image](06_docker/Dockerfile.production.example). |
+| [`07_databases/`](07_databases/README.md) | Relational databases and SQLite. Try the [SQLite repository](07_databases/sqlite_repository_example.py). |
+| [`08_data_engineering/`](08_data_engineering/README.md) | Loading, transforming, and aggregating data. Try the [monthly transaction report](08_data_engineering/transaction_report_example.py). |
+| [`09_ci_cd/`](09_ci_cd/README.md) | Automated checks and continuous integration. See the [Python version matrix workflow](09_ci_cd/tests.matrix.example.yml). |
+| [`10_infrastructure/`](10_infrastructure/README.md) | Infrastructure as Code concepts. See the [validated deployment contract](10_infrastructure/environment_contract.example.tf). |
+| [`11_monitoring/`](11_monitoring/README.md) | Application logging and observability basics. Try [request-scoped observability](11_monitoring/request_observability_example.py). |
+| [`12_system_design/`](12_system_design/README.md) | Components, responsibilities, and system request flows. Read the [intermediate notes service design](12_system_design/notes_service_intermediate_example.md). |
 
 ## Getting started
 
