@@ -1,0 +1,45 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# IDE and editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+# Python tools
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# Logs
+*.log
+logs/
+# Build artifacts
+build/
+dist/
+*.egg-info/
+# Jupyter
+.ipynb_checkpoints/
+# ML experiment artifacts
+mlruns/
+wandb/
+lightning_logs/
+checkpoints/
+# enerated artifacts
+artifacts/
