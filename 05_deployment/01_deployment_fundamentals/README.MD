@@ -43,3 +43,33 @@ To be completed after the lesson.
 * [ ] Development / Staging / Production
 * [ ] Basic Python exercise
 * [ ] Deployment to a server
+# Day 02 — Application Runtime & Execution Environment
+
+## 1. Key Concepts
+* Operating System
+* Program vs Process
+* Python Runtime
+* CPU and RAM
+* Process ID (PID)
+* Execution Environment
+
+## 2. Practical Implementation
+* Created `process_demo.py`.
+
+## 3. Engineering Principles
+* A program is not the same as a process.
+* The OS manages system resources.
+* Every running process has a PID.
+* Runtime executes application code.
+* Execution environments affect application behavior.
+
+## 4. Knowledge Assessment
+* To be completed.
+
+## 5. Progress
+* [ ] Operating System fundamentals
+* [ ] Program vs Process
+* [ ] Python Runtime
+* [ ] CPU and RAM
+* [ ] Process identification
+* [ ] Practical experiment

@@ -1,25 +1,21 @@
 ﻿# Infrastructure
 
-## Overview
-This section is part of the Python Practice learning laboratory.
+This section introduces Infrastructure as Code through a safe Terraform example.
 
-## Learning Objectives
-* Understand fundamental concepts of Infrastructure.
-* Learn important engineering principles.
-* Study real-world use cases.
-* Develop practical engineering skills.
+## Topics
 
-## Key Topics
-Topics will be added progressively during the learning process.
+- Declare input variables
+- Derive configuration with local values
+- Expose values as outputs
 
-## Practical Exercises
-Practical tasks and implementations will be documented here.
+## Example: deployment name
 
-## Progress
-* [ ] Theory
-* [ ] Architecture
-* [ ] Practical implementation
-* [ ] Review and assessment
+[`main.example.tf`](main.example.tf) combines an application name with an environment name and outputs the result. It declares no cloud resources.
 
-## Resources
-Learning resources and references will be added here.
+If Terraform is installed, inspect the configuration from the repository root:
+
+```powershell
+terraform -chdir=10_infrastructure plan -input=false
+```
+
+The plan contains no infrastructure changes because this example defines no resources.

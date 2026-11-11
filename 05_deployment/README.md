@@ -1,25 +1,28 @@
 ﻿# Deployment
 
-## Overview
-This section is part of the Python Practice learning laboratory.
+This section covers application configuration and the path from local development to production.
 
-## Learning Objectives
-* Understand fundamental concepts of Deployment.
-* Learn important engineering principles.
-* Study real-world use cases.
-* Develop practical engineering skills.
+## Topics
 
-## Key Topics
-Topics will be added progressively during the learning process.
+- Development, staging, and production environments
+- Runtime configuration through environment variables
+- Differences between running locally and deploying a service
 
-## Practical Exercises
-Practical tasks and implementations will be documented here.
+## Example: environment configuration
 
-## Progress
-* [ ] Theory
-* [ ] Architecture
-* [ ] Practical implementation
-* [ ] Review and assessment
+[`config_example.py`](config_example.py) reads `APP_ENV`, defaults to `development`, and rejects unsupported environment names.
 
-## Resources
-Learning resources and references will be added here.
+Run from the repository root:
+
+```powershell
+python 05_deployment\config_example.py
+```
+
+To try another environment in PowerShell:
+
+```powershell
+$env:APP_ENV = "staging"
+python 05_deployment\config_example.py
+```
+
+For the deployment lifecycle and process exercises, see [`01_deployment_fundamentals`](01_deployment_fundamentals/README.MD).

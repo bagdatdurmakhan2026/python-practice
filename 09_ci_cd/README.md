@@ -1,25 +1,17 @@
-﻿# Ci Cd
+﻿# CI/CD
 
-## Overview
-This section is part of the Python Practice learning laboratory.
+This section introduces continuous integration with a GitHub Actions workflow example.
 
-## Learning Objectives
-* Understand fundamental concepts of Ci Cd.
-* Learn important engineering principles.
-* Study real-world use cases.
-* Develop practical engineering skills.
+## Topics
 
-## Key Topics
-Topics will be added progressively during the learning process.
+- Run checks automatically for pushes and pull requests
+- Select a Python version for the job
+- Keep automated tests repeatable
 
-## Practical Exercises
-Practical tasks and implementations will be documented here.
+## Example: Python test workflow
 
-## Progress
-* [ ] Theory
-* [ ] Architecture
-* [ ] Practical implementation
-* [ ] Review and assessment
+[`tests.example.yml`](tests.example.yml) shows a workflow that runs Python's `unittest` discovery.
 
-## Resources
-Learning resources and references will be added here.
+To activate it, copy the example to `.github/workflows/tests.yml` and add a `tests` directory containing tests. The example file is intentionally not an active workflow.
+
+The workflow runs `python -m unittest discover -s tests` on GitHub Actions; no commit or push is required to read or adapt this example.

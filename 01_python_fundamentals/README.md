@@ -1,25 +1,21 @@
-﻿# Python Fundamentals
+# Python Fundamentals
 
-## Overview
-This section is part of the Python Practice learning laboratory.
+This section contains Python practice examples, from basic language features to algorithms and data structures.
 
-## Learning Objectives
-* Understand fundamental concepts of Python Fundamentals.
-* Learn important engineering principles.
-* Study real-world use cases.
-* Develop practical engineering skills.
+## Topics
 
-## Key Topics
-Topics will be added progressively during the learning process.
+- Functions, variables, collections, and input validation
+- Hash tables, sliding windows, and two-pointer techniques
+- Working with files and SQLite
 
-## Practical Exercises
-Practical tasks and implementations will be documented here.
+## Example: calculating an average
 
-## Progress
-* [ ] Theory
-* [ ] Architecture
-* [ ] Practical implementation
-* [ ] Review and assessment
+[`average_example.py`](average_example.py) demonstrates a typed function, built-in `sum` and `len`, and explicit handling of an empty list.
 
-## Resources
-Learning resources and references will be added here.
+Run it from the repository root:
+
+```powershell
+python 01_python_fundamentals\average_example.py
+```
+
+Expected output: `6.0`.

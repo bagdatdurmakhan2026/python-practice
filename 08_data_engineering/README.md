@@ -1,25 +1,21 @@
 ﻿# Data Engineering
 
-## Overview
-This section is part of the Python Practice learning laboratory.
+This section demonstrates a small data-processing pipeline using Python's standard library.
 
-## Learning Objectives
-* Understand fundamental concepts of Data Engineering.
-* Learn important engineering principles.
-* Study real-world use cases.
-* Develop practical engineering skills.
+## Topics
 
-## Key Topics
-Topics will be added progressively during the learning process.
+- Read tabular CSV data
+- Convert string fields to numeric values
+- Aggregate rows into a result
 
-## Practical Exercises
-Practical tasks and implementations will be documented here.
+## Example: sum CSV amounts
 
-## Progress
-* [ ] Theory
-* [ ] Architecture
-* [ ] Practical implementation
-* [ ] Review and assessment
+[`csv_pipeline_example.py`](csv_pipeline_example.py) parses sample CSV data and calculates the total amount.
 
-## Resources
-Learning resources and references will be added here.
+Run from the repository root:
+
+```powershell
+python 08_data_engineering\csv_pipeline_example.py
+```
+
+Expected output: `{'total': 13}`. The sample input is embedded in the script, so no external data file is required.

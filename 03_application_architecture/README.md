@@ -1,25 +1,21 @@
 ﻿# Application Architecture
 
-## Overview
-This section is part of the Python Practice learning laboratory.
+This section explores how to separate application data from the logic that operates on it.
 
-## Learning Objectives
-* Understand fundamental concepts of Application Architecture.
-* Learn important engineering principles.
-* Study real-world use cases.
-* Develop practical engineering skills.
+## Topics
 
-## Key Topics
-Topics will be added progressively during the learning process.
+- Model application concepts with data classes
+- Keep business logic in focused functions
+- Separate domain logic from input/output
 
-## Practical Exercises
-Practical tasks and implementations will be documented here.
+## Example: order total
 
-## Progress
-* [ ] Theory
-* [ ] Architecture
-* [ ] Practical implementation
-* [ ] Review and assessment
+[`orders_example.py`](orders_example.py) defines an `Order` model and a separate `calculate_total` function.
 
-## Resources
-Learning resources and references will be added here.
+Run from the repository root:
+
+```powershell
+python 03_application_architecture\orders_example.py
+```
+
+Expected output: `30.0` for an order with three items priced at `10.0` each.

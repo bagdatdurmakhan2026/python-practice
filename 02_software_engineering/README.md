@@ -1,25 +1,22 @@
 ﻿# Software Engineering
 
-## Overview
-This section is part of the Python Practice learning laboratory.
+This section practices small engineering techniques that make code safer and easier to maintain.
 
-## Learning Objectives
-* Understand fundamental concepts of Software Engineering.
-* Learn important engineering principles.
-* Study real-world use cases.
-* Develop practical engineering skills.
+## Topics
 
-## Key Topics
-Topics will be added progressively during the learning process.
+- Validate inputs at system boundaries
+- Normalize data consistently
+- Raise clear errors for invalid values
+- Keep functions focused and predictable
 
-## Practical Exercises
-Practical tasks and implementations will be documented here.
+## Example: username validation
 
-## Progress
-* [ ] Theory
-* [ ] Architecture
-* [ ] Practical implementation
-* [ ] Review and assessment
+[`username_example.py`](username_example.py) trims whitespace, converts a username to lowercase, and rejects values shorter than three characters.
 
-## Resources
-Learning resources and references will be added here.
+Run from the repository root:
+
+```powershell
+python 02_software_engineering\username_example.py
+```
+
+Expected output: `alex`. Try changing the input to a one- or two-character value to see the validation error.

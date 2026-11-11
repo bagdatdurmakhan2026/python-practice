@@ -1,25 +1,15 @@
 ﻿# System Design
 
-## Overview
-This section is part of the Python Practice learning laboratory.
+This section practices describing system components and their responsibilities before implementing them.
 
-## Learning Objectives
-* Understand fundamental concepts of System Design.
-* Learn important engineering principles.
-* Study real-world use cases.
-* Develop practical engineering skills.
+## Topics
 
-## Key Topics
-Topics will be added progressively during the learning process.
+- Identify clients, APIs, services, and data stores
+- Trace the flow of a request
+- Separate responsibilities and operational concerns
 
-## Practical Exercises
-Practical tasks and implementations will be documented here.
+## Example: notes service
 
-## Progress
-* [ ] Theory
-* [ ] Architecture
-* [ ] Practical implementation
-* [ ] Review and assessment
+[`notes_service_example.md`](notes_service_example.md) sketches a notes API, its service layer, database, and event log.
 
-## Resources
-Learning resources and references will be added here.
+Use the diagram as a starting point for discussing request flow, validation, persistence, and how failures can be diagnosed.

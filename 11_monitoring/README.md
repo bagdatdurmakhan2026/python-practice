@@ -1,25 +1,21 @@
 ﻿# Monitoring
 
-## Overview
-This section is part of the Python Practice learning laboratory.
+This section introduces application logging as a first step toward observability.
 
-## Learning Objectives
-* Understand fundamental concepts of Monitoring.
-* Learn important engineering principles.
-* Study real-world use cases.
-* Develop practical engineering skills.
+## Topics
 
-## Key Topics
-Topics will be added progressively during the learning process.
+- Record application lifecycle events
+- Choose a log level
+- Send diagnostic output to the console
 
-## Practical Exercises
-Practical tasks and implementations will be documented here.
+## Example: startup logs
 
-## Progress
-* [ ] Theory
-* [ ] Architecture
-* [ ] Practical implementation
-* [ ] Review and assessment
+[`logging_example.py`](logging_example.py) configures the standard Python logger and records startup and status messages.
 
-## Resources
-Learning resources and references will be added here.
+Run from the repository root:
+
+```powershell
+python 11_monitoring\logging_example.py
+```
+
+The example uses only the Python standard library and writes its log messages to the console.
